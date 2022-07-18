@@ -15,7 +15,7 @@ use LogicException;
 class KeyGenerationService
 {
     public const DIGEST_ALGORITHM = 'sha256';
-    private const KEY_LENGTH = 2048;
+    private const KEY_LENGTH = 1024;
 
     public function extractPublicKey(string $privateKey): string
     {
